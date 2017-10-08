@@ -31,10 +31,10 @@ void insertSort(T arr[], int n)
 	}
 	
 	// Output array
-	for (int i : n)
+	for (int i = 0; i < n; i++)
 	{
-		std::cout << i << " ";
-	}
+        	std::cout << *(arr + i) << " ";
+        }
 	
 	// Output count steps
 	std::cout << "(" << cnt << ")" std::endl;
