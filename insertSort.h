@@ -45,11 +45,11 @@ void insertSort(T arr[], int n)
 	int arr[] = { 6, 4, 2, 7, 8, 3, 5, 123, 354, 65 };
 	insertSort<int, greater>(arr, 10);
 	std::cout << std::endl;
-    }
+}
 
-    {
+{
         int arr[] = { 9, 4, 2, 7, 8, 3, 5, 123, 354, 65 };
         insertSort<int, less>(arr, 10);
         std::cout << std::endl;
-    }
+}
 */
