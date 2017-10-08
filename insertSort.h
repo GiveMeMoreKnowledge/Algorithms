@@ -9,10 +9,10 @@ void insertSort(T arr[], int n)
 
 	// Lambda expression
    	switch(e)
-    {
-        case greater: predicate = [] (T x, T y) { return x > y ? true : false; }; break;
-        case less:    predicate = [] (T x, T y) { return x < y ? true : false; }; break;
-    }
+    	{
+        	case greater: predicate = [] (T x, T y) { return x > y ? true : false; }; break;
+        	case less:    predicate = [] (T x, T y) { return x < y ? true : false; }; break;
+    	}
 	
 	// Algorithm
 	for (int j = 1; j < n; j++)
