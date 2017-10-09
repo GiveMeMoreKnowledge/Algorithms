@@ -11,8 +11,8 @@ void bubbleSort(T arr[], int n)
 	// Lambda expression
 	switch (e)
 	{
-		case increase:  predicate = [] (T x, T y) { return x > y ? true : false; };
-		case lessening: predicate = [] (T x, T y) { return x < y ? true : false; };
+		case increase:  predicate = [] (T x, T y) { return x > y ? true : false; }; break;
+		case lessening: predicate = [] (T x, T y) { return x < y ? true : false; }; break;
 	}
 	
 	for (int i = 0; i < n - 1; i++)
